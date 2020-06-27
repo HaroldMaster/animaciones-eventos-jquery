@@ -1,0 +1,135 @@
+body {
+  font-family: monospace;
+  font-size: 20px;
+  background-image: linear-gradient(-90deg, #ffe15a, #ffefad);
+}
+.padre {
+  text-align: center;
+}
+.hijo {
+  padding: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 550px;
+  height: 400px;
+  display: inline-table;
+}
+.input-lista {
+  width: 300px;
+  height: 27px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.inputs {
+  text-align: left;
+}
+button {
+  width: 100px;
+  height: 30px;
+  font-size: medium;
+}
+h1 {
+  text-align: center;
+}
+li {
+  text-align: left;
+  margin-top: 10px;
+}
+#contenedor-cursor {
+  border-style: dotted;
+  width: 450px;
+  height: 200px;
+  max-width: 450px;
+  max-height: 200px;
+  text-align: center;
+}
+#bloque,
+#bloque-fade,
+#bloque-slide {
+  border-style: dotted;
+  border-color: black;
+  display: block;
+  margin: 10px;
+  background-color: #87bfed;
+  height: 100px;
+}
+
+#cursor-circular {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  opacity: 0.5;
+  background-color: blue;
+  position: absolute;
+  display: none;
+}
+.bloque-animacion1 {
+  width: 550px;
+  height: 100px;
+  margin-top: -20px;
+  position: relative;
+  background-color: #87bfed;
+  opacity: 0;
+  z-index: -1;
+}
+.bloque-animacion2 {
+  width: 550px;
+  height: 100px;
+  margin-top: 40px;
+  position: relative;
+  background-color: #87bfed;
+  opacity: 0;
+}
+.bloque-animacion3 {
+  width: 550px;
+  height: 100px;
+  margin-left: 20px;
+  position: relative;
+  background-color: #87bfed;
+  opacity: 0;
+  z-index: -1;
+}
+.bloque-animacion4 {
+  width: 550px;
+  height: 100px;
+  margin-left: -20px;
+  position: relative;
+  background-color: #87bfed;
+  opacity: 0;
+}
+.btn {
+  position: relative;
+  background-color: #4caf50;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.btn:active:after {
+  padding: 0;
+  border: none;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
