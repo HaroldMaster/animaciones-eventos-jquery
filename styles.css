@@ -1,27 +1,27 @@
 body {
   font-family: monospace;
   font-size: 20px;
-  background-color:  #ffefad;
+  background-color: #ffefad;
 }
 .padre {
   text-align: center;
 }
-@media (min-width: 600px) {
-  .hijo {
-    padding: 10px;
-    margin-right: 40px;
-    margin-left: 40px;
-    width: 500px;
-    height: 400px;
-    display: inline-table;
-  }
-  .input-lista {
-    width: 300px;
-    height: 27px;
-    font-size: 20px;
-    margin-left: 20px;
-  }
+
+.hijo {
+  padding: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 500px;
+  height: 400px;
+  display: inline-table;
 }
+.input-lista {
+  width: 300px;
+  height: 27px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
 @media (max-width: 600px) {
   .hijo {
     padding: 10px;
@@ -30,10 +30,16 @@ body {
     display: inline-table;
   }
   .input-lista {
-    width: 130px;
+    width: 200px;
     height: 27px;
     font-size: 20px;
     margin-left: 20px;
+  }
+  .bloque-animacion1,
+  .bloque-animacion2,
+  .bloque-animacion3,
+  .bloque-animacion4 {
+    width: 200px;
   }
 }
 
