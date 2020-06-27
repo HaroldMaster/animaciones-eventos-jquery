@@ -30,7 +30,7 @@ body {
     display: inline-table;
   }
   .input-lista {
-    width: 200px;
+    width: 160px;
     height: 27px;
     font-size: 20px;
     margin-left: 20px;
@@ -58,14 +58,14 @@ li {
   text-align: left;
   margin-top: 10px;
 }
-#contenedor-cursor {
+/*#contenedor-cursor {
   border-style: dotted;
   width: 450px;
   height: 200px;
   max-width: 450px;
   max-height: 200px;
   text-align: center;
-}
+}*/
 #bloque,
 #bloque-fade,
 #bloque-slide {
