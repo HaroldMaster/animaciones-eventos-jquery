@@ -25,9 +25,9 @@ body {
 @media (max-width: 600px) {
   .hijo {
     padding: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 200px;
     height: 400px;
     display: inline-table;
   }
