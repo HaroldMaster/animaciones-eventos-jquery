@@ -85,11 +85,10 @@ li {
 .bloque-animacion3 {
   width: 550px;
   height: 100px;
-  margin-left: 20px;
+  margin-left: 40px;
   position: relative;
   background-color: #87bfed;
   opacity: 0;
-  z-index: -1;
 }
 .bloque-animacion4 {
   width: 550px;

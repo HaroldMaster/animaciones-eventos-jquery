@@ -158,7 +158,7 @@ $(document).ready(function () {
   function animacion3() {
     $(".btn-animacion3").click(function () {
       let div = $(".bloque-animacion3");
-      div.css("right", "-20px").css("opacity", "0");
+      div.css("right", "-40px").css("opacity", "0");
       div.animate({ right: "20px", opacity: "1" }, "slow");
     });
   }
